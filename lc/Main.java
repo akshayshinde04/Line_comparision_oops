@@ -21,17 +21,10 @@ public class Main {
 			l2.p1 = p3;
 			l2.p2 = p4;
 			float length1 = l1.lineLength();
-			System.out.println("length of line 1 - "+ length1);
+			System.out.println("length is "+ length1);
 			float length2 = l2.lineLength();
-			System.out.println("length of line 2 - "+ length2);
-		 	if (Float.compare(length1, length2) == 0) {
-		 		System.out.println("Lines are equal");
-				 }
-			else if (Float.compare(length1, length2) > 0) {
-				System.out.println("Line 1 is Greater than Line 2");
-			      }
-			else 
-				System.out.println("Line 2 is Greater than Line 1");
-		}	
-}
-
+			System.out.println("length is "+ length2);
+		    String lineEqual = Line.lineEqual(length1, length2);
+            System.out.println(lineEqual);
+		}
+	}
