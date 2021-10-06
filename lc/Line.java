@@ -12,13 +12,13 @@ public class Line {
 	  public static String lineEqual(float length1, float length2) { 
 		//int compare = length1.compareTo(length2);
 		  if (Float.compare(length1, length2) == 0) {
-		  return "Lines are equal";
+		  	return "Lines are equal";
 		  }
-	  else if (Float.compare(length1, length2) > 0) {
-		  return"Line 1 is Greater than Line 2"; 
+	          else if (Float.compare(length1, length2) > 0) {
+		  	return"Line 1 is Greater than Line 2"; 
 	      }
-		  else 
-		  return "Line 2 is Greater than Line 1";
+	          else 
+		  	return "Line 2 is Greater than Line 1";
 	  }
 	 
 }
