@@ -1,7 +1,7 @@
 package com.bl.lc;
 
 public class Main {
-		public static void main(String[] args) {
+	public static void main(String[] args) {
 			Point p1 = new Point();
 			p1.x = 5;
 			p1.y = 4;
@@ -24,7 +24,7 @@ public class Main {
 			System.out.println("length is "+ length1);
 			float length2 = l2.lineLength();
 			System.out.println("length is "+ length2);
-		    String lineEqual = Line.lineEqual(length1, length2);
-            System.out.println(lineEqual);
-		}
+		        String lineEqual = Line.lineEqual(length1, length2);
+                        System.out.println(lineEqual);
 	}
+}
