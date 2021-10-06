@@ -24,8 +24,8 @@ public class Main {
 			System.out.println("length is "+ length1);
 			float length2 = l2.lineLength();
 			System.out.println("length is "+ length2);
-			String lineEqual = Line.lineEqual(length1, length2);
-		    System.out.println(lineEqual);
+		    String lineEqual = Line.lineEqual(length1, length2);
+            System.out.println(lineEqual);
 		}
 	}
 
