@@ -9,9 +9,11 @@ public class Line {
 	}
 	public static String lineEqual(float length1, float length2) {
 		if (length1 == length2)
-			return "equal";
+			return "Lines are equal";
+		else if (length1 > length2)
+			return "Line 1 is Greater than Line 2";
 		else
-			return "not equal";
+			return "Line 2 is Greater than Line 1";
 	}
 }
 

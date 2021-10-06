@@ -9,11 +9,11 @@ public class Main {
 			p2.x = 6;
 			p2.y = 9;
 			Point p3 = new Point();
-			p3.x = 5;
-			p3.y = 4;
+			p3.x = 9;
+			p3.y = 8;
 			Point p4 = new Point();
 			p4.x = 6;
-			p4.y = 9;
+			p4.y = 5;
 			Line l1 = new Line();
 			l1.p1 = p1;
 			l1.p2 = p2;
@@ -25,7 +25,7 @@ public class Main {
 			float length2 = l2.lineLength();
 			System.out.println("length is "+ length2);
 			String lineEqual = Line.lineEqual(length1, length2);
-		    System.out.println("Line are- "+ lineEqual);
+		    System.out.println(lineEqual);
 		}
 	}
 
